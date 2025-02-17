@@ -1,5 +1,5 @@
-import { Frown } from "lucide-react";
 import { Link } from "react-router";
+import { Frown } from "lucide-react";
 
 const NotFound404 = () => {
   return (
