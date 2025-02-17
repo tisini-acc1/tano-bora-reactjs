@@ -6,8 +6,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: "#005b96",
-        secondary: "#b3cde0",
+        primary: "#0092E0",
+        secondary: "#8AB6D6",
       },
       container: {
         center: true,
@@ -16,6 +16,10 @@ export default {
           small: "2rem",
           large: "4rem",
         },
+      },
+      fontFamily: {
+        handrawn: ["'Delicious Handrawn'", "sans-serif"],
+        shafarik: ["'Shafarik'", "serif"],
       },
     },
   },

@@ -9,7 +9,7 @@ const MenuItems = [
 
 const MainNavBar = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+
   return (
     <>
       <nav className="flex justify-between items-center p-4 relative">
@@ -55,8 +55,8 @@ const MobileNav = ({
   return (
     <div className="absolute top-16 left-0 w-full h-screen z-20">
       {open && (
-        <div className="text-xl font-semibold uppercase bg-secondary text-primary py-10 m-6 rounded-xl">
-          <ul className="flex flex-col items-start justify-center gap-10">
+        <div className="text-xl font-semibold uppercase bg-primary text-white py-10 m-6 rounded-xl">
+          <ul className="flex flex-col items-center justify-center gap-10">
             {MenuItems.map((item) => (
               <li key={item.id}>
                 <Link

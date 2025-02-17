@@ -5,9 +5,11 @@ import MainNavBar from "@/components/site/MainNavBar";
 
 const MainLayout = () => {
   return (
-    <div className="container">
-      <MainNavBar />
-      <Outlet />
+    <div>
+      <div className="container">
+        <MainNavBar />
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
