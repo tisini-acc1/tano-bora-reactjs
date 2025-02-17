@@ -22,3 +22,9 @@ body {
     background: var(--background);
     font-family: Shafarik, Helvetica, sans-serif;
 }
+
+@layer components{
+    .primary-btn {
+        @apply bg-primary text-white font-semibold py-2 px-6 rounded-md hover:scale-110 duration-300;
+    }
+}
