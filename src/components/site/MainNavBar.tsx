@@ -1,5 +1,5 @@
-import { Menu } from "lucide-react";
 import { useState } from "react";
+import { Menu } from "lucide-react";
 import { Link } from "react-router";
 
 const MenuItems = [
@@ -13,11 +13,15 @@ const MainNavBar = () => {
   return (
     <>
       <nav className="flex justify-between items-center p-4 relative">
-        <Link to={"/"}>
-          <img src="Tisini.png" alt="" className="w-20" />
+        <Link
+          to={"/"}
+          className="text-2xl md:text-4xl font-handrawn font-semibold text-primary"
+        >
+          {/* <img src="Tisini.png" alt="" className="w-20" /> */}
+          Tano Bora
         </Link>
 
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4 text-primary">
           <ul className="flex gap-4">
             {MenuItems.map((item) => (
               <li
@@ -36,7 +40,7 @@ const MainNavBar = () => {
           className="md:hidden cursor-pointer"
           onClick={() => setOpen(!open)}
         >
-          <Menu className="text-4xl" />
+          <Menu className="text-4xl text-primary" />
         </div>
       </nav>
 

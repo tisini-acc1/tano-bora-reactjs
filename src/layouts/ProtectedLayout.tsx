@@ -6,7 +6,7 @@ import NavBar from "@/components/site/NavBar";
 const ProtectedLayout = () => {
   return (
     <div>
-      <div className="container">
+      <div className="">
         <NavBar />
         <Outlet />
       </div>

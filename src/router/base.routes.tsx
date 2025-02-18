@@ -6,8 +6,12 @@ import MainLayout from "@/layouts/MainLayout";
 const baseRoutes = [
   {
     path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/*",
     element: <MainLayout />,
-    children: [{ path: "/", element: <HomePage /> }],
+    children: [{ path: "/*", element: <HomePage /> }],
   },
 ] satisfies RouteObject[];
 

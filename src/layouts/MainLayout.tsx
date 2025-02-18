@@ -6,7 +6,7 @@ import MainNavBar from "@/components/site/MainNavBar";
 const MainLayout = () => {
   return (
     <div>
-      <div className="container">
+      <div className="">
         <MainNavBar />
         <Outlet />
       </div>
