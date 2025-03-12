@@ -12,12 +12,12 @@ const NavBar = () => {
 
   return (
     <nav className="fixed w-full bg-gray-50">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex justify-between items-center ">
         <Link
           to={"/"}
-          className="text-2xl md:text-4xl font-handrawn font-semibold text-primary"
+          className="flex items-center gap-2 text-2xl md:text-4xl font-handrawn font-semibold text-primary"
         >
-          {/* <img src={org.logo} alt="" className="w-20" /> */}
+          <img src="tanobora.png" alt="" className="w-20" />
           {org.name}
         </Link>
 

@@ -12,7 +12,7 @@ const TanoBoraPage = () => {
   console.log(organization);
 
   return (
-    <main className="grid gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+    <main className="p-2 grid gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
       <TanoboraCard />
       <TanoboraCard />
       <TanoboraCard />
