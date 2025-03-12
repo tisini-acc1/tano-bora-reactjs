@@ -8,6 +8,8 @@
 :root {
     --background: #ffffff;
     --foreground: #171717;
+    /* --primary-color: "#0092E0";
+    --secondary-color: "#8AB6D6"; */
 }
 
 @media (prefers-color-scheme: light) {

@@ -72,7 +72,7 @@ const HeroSlider = ({
 }: SliderProps) => {
   return (
     <div
-      className={`flex flex-col items-start px-4 lg:flex-row lg:items-center z-10 relative overflow-hidden md:py-24 md:px-16 py-10`}
+      className={`flex flex-col items-start px-4 lg:flex-row lg:items-center z-10 relative overflow-hidden md:py-20 md:px-16 py-10`}
     >
       <div className="w-full flex items-center text-center mb-5 flex-col gap-4 lg:w-1/2 justify-center lg:items-start lg:text-left md:mb-0">
         <h1 className="text-4xl mx-auto md:text-5xl lg:mx-0 font-bold leading-tight">

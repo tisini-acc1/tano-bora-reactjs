@@ -5,9 +5,9 @@ import ProtectedLayout from "@/layouts/ProtectedLayout";
 
 const tanoboraRoutes = [
   {
-    path: "/tanobora",
+    path: "/:firm",
     element: <ProtectedLayout />,
-    children: [{ path: "/tanobora", element: <TanoBoraPage /> }],
+    children: [{ path: "/:firm", element: <TanoBoraPage /> }],
   },
 ] satisfies RouteObject[];
 
