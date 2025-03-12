@@ -1,6 +1,6 @@
 import { useStore } from "@/store/store";
 
-// import TanoboraCard from "./TanoboraCard";
+import TanoboraCard from "./TanoboraCard";
 
 const TanoBoraPage = () => {
   const organization = useStore((state) => state.store.organization);
@@ -12,10 +12,11 @@ const TanoBoraPage = () => {
   console.log(organization);
 
   return (
-    <main className="p-2 text-black">
-      tanobora page
-      {organization.name}
-      {/* <TanoboraCard /> */}
+    <main className="grid gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+      <TanoboraCard />
+      <TanoboraCard />
+      <TanoboraCard />
+      <TanoboraCard />
     </main>
   );
 };

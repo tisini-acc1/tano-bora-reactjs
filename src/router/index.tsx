@@ -11,6 +11,10 @@ const routes = [
     children: [...baseRoutes, ...tanoboraRoutes],
   },
   {
+    path: "/404",
+    element: <NotFound404 />,
+  },
+  {
     path: "*",
     element: <NotFound404 />,
   },

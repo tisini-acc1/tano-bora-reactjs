@@ -8,9 +8,9 @@ const ProtectedLayout = () => {
   useThemeSync();
 
   return (
-    <div>
-      <div className="">
-        <NavBar />
+    <div className="">
+      <NavBar />
+      <div className="container pt-24 min-h-screen">
         <Outlet />
       </div>
       <Footer />
